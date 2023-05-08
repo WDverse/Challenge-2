@@ -83,8 +83,7 @@ a:hover{
     flex-wrap: wrap;
     font-size: 18px;
     border-left: solid rgb(85, 193, 193);
-   
-
+    flex: 100% 50% 200px;
 }
 
 .me{display: flex;
@@ -93,8 +92,7 @@ a:hover{
     padding: 70px;
     margin-left: 10%;
     font-size: 300%;
-   
-
+    flex: 100% 50% 200px;
 }
 
 
@@ -143,6 +141,29 @@ a:hover{
     margin-left: 15%;
     font-size: 300%;
 }
+
+.work-2-card{
+    position: relative;
+}
+
+.work-2{
+    display: flex;
+    display: block;
+    position: absolute;
+    width: 40%;
+    left: 55%;
+    top: 43%;
+    border-left: solid rgb(85, 193, 193);
+    padding-left: 10px;
+}
+
+.Horiseon-Semantic-Webpage{
+    position: absolute;
+
+}
+
+
+
 
 section > img {
     width:50%
