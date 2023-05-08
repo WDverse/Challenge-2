@@ -9,7 +9,8 @@
 body{
 display: flex;
 flex-direction: column;
-line-height: 1.3;
+line-height: 1.3;background-color: var(--color);
+color: rgb(85, 193, 193);
 }
 
 header{
@@ -21,7 +22,7 @@ header{
  width: auto;
 }
 
-.h1{
+.my-name{
 font-size: 200%;
 color: rgb(85, 193, 193);
 margin: 10px 10px 10px 50px
@@ -29,6 +30,10 @@ margin: 10px 10px 10px 50px
 
 nav{
     margin:30px
+}
+
+a{
+    color:rgb(85, 193, 193);
 }
 
 nav a{
@@ -53,18 +58,101 @@ a:hover{
 }
 
 .profile-picture{
-    display: flex;
     position: absolute;
-    bottom: 380px;
-    height:250px;
-    left:100px;
+    bottom: 47%;
+    height:30%;
+    left:10%;
     border: 10px solid rgb(99, 159, 179);
     border-radius: 10px 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
+}
 
+#About{
+    position: relative;
+}
+
+.About-Me{
+    display: flex;
+    display: block;
+    position: absolute;
+    width: 40%;
+    left: 55%;
+    bottom: 10%;
+    flex-direction: column;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    font-size: 18px;
+    border-left: solid rgb(85, 193, 193);
+   
+
+}
+
+.me{display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 70px;
+    margin-left: 10%;
+    font-size: 300%;
+   
+
+}
+
+
+.work-cards{
+    position: relative;
+}
+
+.work-1-card{
+    position: relative;
+}
+
+
+.work-1{
+    display: flex;
+    display: block;
+    position: absolute;
+    width: 40%;
+    left: 55%;
+    bottom: 15%;
+    top: 1%;
+    border-left: solid rgb(85, 193, 193);
+    padding-left: 10px;
+}
+
+
+
+.prework-study-guide{
+    position: absolute;
+    background-color: var(--color);
+    left: 56%;
+    top:1%;
+    font-size: 20px;
+    
+}
+.prework{
+    background-color: var(--color);
+    left: 58%;
+    top:900% 
+}
+
+
+.my-work {display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 100px;
+    margin-left: 15%;
+    font-size: 300%;
 }
 
 section > img {
     width:50%
 }
+
+p{
+    display: inline-block;
+}
+
+.work-cards{
+    justify-content: space-between;
+}
+
+
