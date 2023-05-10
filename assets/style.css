@@ -235,22 +235,10 @@ ul>li{
 }
 
 
-@media screen and (max-width: 992px) {
-    h3 {
-      width: 100%;
-    } 
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     h3 {
       width: 50%;
-    } 
-}
-
-@media screen and (max-width: 576px) {
-    h3 {
-      width: 50%;
-    } 
+    }
 }
 
 
