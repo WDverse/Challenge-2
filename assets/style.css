@@ -42,10 +42,6 @@ nav a{
     padding: 5px 10px;
 }
 
-a:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
 
 nav a:hover{
     background-color:aqua;
@@ -135,21 +131,23 @@ h3{
     margin-left:auto;
     padding-top: 100px;
 }
-        /* flex grow */
 
+.images{
+    opacity: 0.5;
+}
 
-/* .work-cards div:nth-of-type(1) {width: 75%}
-.work-cards div:nth-of-type(2) {width: 50%}
-.work-cards div:nth-of-type(3) {width: 50%} */
-/* .work-cards div:nth-of-type(1) {flex-grow: 3;}
-.work-cards div:nth-of-type(2) {flex-grow: 1;}
-.work-cards div:nth-of-type(3) {flex-grow: 1;} */
+.images:hover{
+    opacity: 1;
+    cursor: pointer;
+}
 
 
 a > img{
     width: 70%;
     border: solid rgb(85, 193, 193) 5px;
+    display: inline;
 }
+
 
 .prework-study-guide{
     position: absolute;
