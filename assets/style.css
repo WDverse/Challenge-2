@@ -35,12 +35,11 @@ nav{
     align-items: center;
 }
 
-a{
+nav a{
     text-decoration: none;
     color:rgb(85, 193, 193);
     font-size: 1.0rem;
     padding: 5px 10px;
-    margin-right: 10px;
 }
 
 a:hover{
@@ -118,6 +117,12 @@ nav a:hover{
     padding-top: 68px; 
 }
 
+h3{
+    background-color: var(--color);
+    font-size: large;
+    flex:1 1
+}
+
 #work{
     position: relative;
 }
@@ -131,21 +136,19 @@ nav a:hover{
     padding-top: 100px;
 }
 
-.work-1-image{
-    display: flex;
+/* .work-1-image{
     flex-grow: 2;
-}
+} */
 
 a > img{
     width: 70%;
-    margin-left: 100px;
     border: solid rgb(85, 193, 193) 5px;
 }
 
 .prework-study-guide{
     position: absolute;
     margin-top: -10px;
-    margin-left: 111px;
+    margin-left: 3px;
     bottom: 70%;
     border:solid rgb(85, 193, 193) 5px;
     border-left-width:solid rgb(85, 193, 193) 5px;
@@ -155,7 +158,7 @@ a > img{
 .horiseon{
     position: absolute;
     margin-top: -10px;
-    margin-left: 111px;
+    margin-left: 3px;
     bottom: 45%;
     border:solid rgb(85, 193, 193) 5px;
     border-left-width:solid rgb(85, 193, 193) 5px;
@@ -164,7 +167,7 @@ a > img{
 .technology-management{
     position: absolute;
     margin-top: -10px;
-    margin-left: 111px;
+    margin-left: 3px;
     flex-wrap:wrap ;
     bottom: 15%;
     border:solid rgb(85, 193, 193) 5px;
@@ -199,6 +202,15 @@ a > img{
     padding-top: 100px;
 }
 
+
+ul a {
+    text-decoration: none;
+    color:rgb(85, 193, 193);
+    font-size: 1.0rem;
+    padding: 5px 10px;
+}
+
+
 ul a:hover{
     background-color:aqua;
     transition: 1s;
@@ -219,12 +231,6 @@ ul>li{
 }
 
 @media screen and (max-width: 992px) {
-    body {
-      width: 50%;
-    }
-}
-
-@media screen and (max-width: 768px) {
     body {
       width: 100%;
     }
