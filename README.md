@@ -1,4 +1,4 @@
-# Horiseon Webpage
+# My Portfolio
 
 
 ## Description
@@ -16,7 +16,7 @@ N/A
 ## Usage
 
 
-To use this Prework Study Guide, you can review the information in each section and on the aside. To quickly move to a section, click the section name on the navigation bar.
+To use this webpage, you can review the information in each section. To access deployed web applications ..............To quickly move to a section, click the section name on the navigation bar.
 
 The following image shows the web application's appearance and functionality:
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/screenshot.png)
