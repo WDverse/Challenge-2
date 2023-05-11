@@ -176,7 +176,6 @@ h3{
 .images:hover{
     opacity: 1;
     cursor: pointer;
-    border: rgb(85, 193, 193);
 }
 
 /* Applies the property values to img elements which is a direct child of an anchor element */
