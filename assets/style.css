@@ -132,9 +132,11 @@ h3{
     padding-top: 100px;
 }
 
+
 .images{
     opacity: 0.5;
 }
+
 
 .images:hover{
     opacity: 1;
