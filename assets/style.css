@@ -1,10 +1,16 @@
+
+/* Declares a variable with the color value */
 :root{
     --color: #13293d;
 }
 
+/* Applies the font family to all html elements */
+
 *{
     font-family: sans-serif;
 }
+
+/* Applies the property values to the body element */
 
 body{
 display: flex;
@@ -14,6 +20,8 @@ background-color: var(--color);
 color: rgb(85, 193, 193);
 }
 
+/* Applies the property values to the header element */
+
 header{
  display: flex;   
  justify-content: space-between;
@@ -22,18 +30,24 @@ header{
  width: auto;
 }
 
+/* Applies the property values to the element with class="my-name" */
+
 .my-name{
 font-size: 200%;
 color: rgb(85, 193, 193);
 margin: 10px 10px 10px 50px
 }
 
+
+/* Applies the property values to the nav element */
 nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
 }
+
+/* Applies the property values to the anchor elements in the nav element */
 
 nav a{
     text-decoration: none;
@@ -42,6 +56,7 @@ nav a{
     padding: 5px 10px;
 }
 
+/* Applies the property values to the anchor elements in the nav element on hover */
 
 nav a:hover{
     background-color:aqua;
@@ -50,15 +65,21 @@ nav a:hover{
     opacity: 0.6;
 }
 
+/* Applies the property values to the element with class="hero" */
+
 .hero{
     display: flex;
 }
+
+/* Applies the property values to the image element which is a direct child of an element with class="hero" */
 
 .hero > img{
     position: relative;
     width: 100%; 
     height: 400px;
 }
+
+/* Applies the property values to the element with class="profile-picture" */
 
 .profile-picture{
     position: absolute;
@@ -69,12 +90,16 @@ nav a:hover{
     border-radius: 10px 10px;
 }
 
+/* Applies the property values to the element with id="about" */
+
 #about{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
 }
+
+/* Applies the property values to the element with class="me" */
 
 .me{
     font-size: 4vw;
@@ -86,6 +111,7 @@ nav a:hover{
     padding-top: 68px;
 }
 
+/* Applies the property values to the element with class="about-me" */
 
 .about-me{
     flex: 0 0 75%;
@@ -93,15 +119,22 @@ nav a:hover{
     padding-top: 100px;
 }
 
+/* Applies the property values to the p elements within an element with class="about-me" */
+
+
 .about-me p{
     margin-bottom: 20px;
     font-size: large;
 }
 
+/* Applies the property values to the element with id="work" */
 
 #work{
     display: flex;
+    position: relative;
 }
+
+/* Applies the property values to the element with class="work-heading" */
 
 .work-heading{
     font-size: 4vw;
@@ -113,15 +146,15 @@ nav a:hover{
     padding-top: 68px; 
 }
 
+/* Applies the property values to all h3 elements */
+
 h3{
     background-color: var(--color);
     font-size: large;
     flex:1 1
 }
 
-#work{
-    position: relative;
-}
+/* Applies the property values to the element with class="work-cards" */
 
 .work-cards{
     display: flex;
@@ -133,16 +166,20 @@ h3{
 }
 
 
+/* Applies the property values to elements with class="images" */
+
 .images{
     opacity: 0.5;
 }
 
+/* Applies the property values to elements with class="images" on hover */
 
 .images:hover{
     opacity: 1;
     cursor: pointer;
 }
 
+/* Applies the property values to img elements which is a direct child of an anchor element */
 
 a > img{
     width: 70%;
@@ -150,6 +187,7 @@ a > img{
     display: inline;
 }
 
+/* Applies the property values to elements with class="prewrok-study-guide" */
 
 .prework-study-guide{
     position: absolute;
@@ -160,6 +198,7 @@ a > img{
     border-left-width:solid rgb(85, 193, 193) 5px;
 }  
 
+/* Applies the property values to elements with class="horiseon" */
 
 .horiseon{
     position: absolute;
@@ -169,6 +208,8 @@ a > img{
     border:solid rgb(85, 193, 193) 5px;
     border-left-width:solid rgb(85, 193, 193) 5px;
 }
+
+/* Applies the property values to elements with class="technology-management" */
 
 .technology-management{
     position: absolute;
@@ -180,6 +221,7 @@ a > img{
     border-left-width:solid rgb(85, 193, 193) 5px;
 }
 
+/* Applies the property values to elements with id="contact-me" */
 
 #contact-me{
     display: flex;
@@ -187,6 +229,8 @@ a > img{
     flex-wrap: wrap;
     align-items: stretch;
 }
+
+/* Applies the property values to elements with class="my-contact" */
 
 .my-contact{
     font-size: 4vw;
@@ -198,6 +242,7 @@ a > img{
     padding-top: 68px; 
 }
 
+/* Applies the property values to elements with class="contact-links" */
 
 .contact-links{
     display: flex;
@@ -208,6 +253,7 @@ a > img{
     padding-top: 100px;
 }
 
+/* Applies the property values to anchor elements within an unordered list element*/
 
 ul a {
     text-decoration: none;
@@ -216,6 +262,7 @@ ul a {
     padding: 5px 10px;
 }
 
+/* Applies the property values to anchor elements within an unordered list element on hover*/
 
 ul a:hover{
     background-color:aqua;
@@ -224,10 +271,14 @@ ul a:hover{
     opacity: 0.6;
 }
 
+/* Applies the property values to list elements which are direct children of an unordered list element*/
+
 ul>li{
     display: inline;
     margin-left: 140px;
 }
+
+/* Applies the property values to the element with class="footer" */
 
 .footer{
     text-align: center;
@@ -236,6 +287,7 @@ ul>li{
     color: var(--color);
 }
 
+/* Applies media queries to all h3 elements */
 
 @media screen and (max-width: 800px) {
     h3 {
