@@ -4,7 +4,7 @@
 ## Description
 
 
-This webpage was created for Horiseon. It has a codbase that follows accessibility  standards to optimize the website for search engines. The webpage contains insights on Search Engine Optimization, Online Reputation Management, Social Media Marketing, Lead Generation, Brand Awareness and Cost Management. Through this project, I realised semantic elements made webpages more accessible. Furthermore, the addition of comments to a CSS file makes the file more readable. Lastly, the project gave me the opportunity to examine the functions of the various CSS selector types.
+This webpage shows my portfolio. It has a codbase that follows accessibility  standards. The webpage contains some information about me, links to my works, and contact links. Through this project, I realised that it's ideal to group elements appropriately to enable seamless application of css properties. Media queries also allow for greater control over responsiveness.
 
 
 ## Installation
@@ -16,10 +16,10 @@ N/A
 ## Usage
 
 
-To use this webpage, you can review the information in each section. To access deployed web applications ..............To quickly move to a section, click the section name on the navigation bar.
+To use this webpage, you can review the information in each section. To access deployed web applications, click on the correspnding images. To quickly move to a section, click the section name on the navigation bar. To access a contact link, click on the link.
 
 The following image shows the web application's appearance and functionality:
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/screenshot.png)
+![The Portfolio webpage includes a navigation bar, a header image, a profile picture and cards with text and images at the middle of the page, and contact links at the bottom of the page.](./assets/images/screenshot.png)
 
 ## Credits
 
