@@ -64,6 +64,7 @@ nav a:hover{
     transition: 1s;
     color: var(--color);
     opacity: 0.6;
+    border-radius: 10px;
 }
 
 /* Applies the property values to the element with class="hero" */
@@ -268,6 +269,7 @@ ul a:hover{
     transition: 1s;
     color: var(--color);
     opacity: 0.6;
+    border-radius: 10px;
 }
 
 /* Applies the property values to list elements which are direct children of an unordered list element*/
