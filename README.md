@@ -16,7 +16,7 @@ N/A
 ## Usage
 
 
-To use this webpage, you can review the information in each section. To access deployed web applications, click on the correspnding images. To quickly move to a section, click the section name on the navigation bar. To access a contact link, click on the corresponding name.
+To use this webpage, you can review the information in each section. To access deployed web applications, click on the corresponding images. To quickly move to a section, click the section name on the navigation bar. To access a contact link, click on the corresponding name.
 
 The following image shows the web application's appearance and functionality:
 ![The Portfolio webpage includes a navigation bar, a header image, a profile picture and cards with text and images at the middle of the page, and contact links at the bottom of the page.](./assets/images/screenshot.png)
